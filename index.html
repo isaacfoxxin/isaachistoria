@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Aventura no Futebol</title>
+</head>
+<body>
+    <header>
+        <h1>Aventura no Futebol</h1>
+        <p>Escolha seu caminho e torne-se um jogador profissional!</p>
+    </header>
+    
+    <main>
+        <section class="passo ativo" id="passo-0">
+            <img src="img/campo-futebol.png" alt="Campo de Futebol">
+            <p>Você é um jovem jogador de futebol sonhando em se tornar um profissional. O que você faz primeiro?</p>
+            <button class="btn-proximo" data-proximo="1">Treinar sozinho</button>
+            <button class="btn-proximo" data-proximo="2">Jogar com amigos</button>
+        </section>
+
+        <section class="passo" id="passo-1">
+            <p>Você decide treinar sozinho. Depois de muito esforço, você se sente mais confiante!</p>
+            <button class="btn-proximo" data-proximo="3">Participar da seleção juvenil</button>
+            <button class="btn-proximo" data-proximo="4">Continuar treinando sozinho</button>
+        </section>
+
+        <section class="passo" id="passo-2">
+            <p>Você joga com seus amigos e percebe que é divertido, mas não melhora suas habilidades.</p>
+            <button class="btn-proximo" data-proximo="3">Participar da seleção juvenil</button>
+            <button class="btn-proximo" data-proximo="4">Continuar jogando com amigos</button>
+        </section>
+
+        <section class="passo" id="passo-3">
+            <p>Você decide participar da seleção juvenil e impressiona o treinador com suas habilidades!</p>
+            <button class="btn-proximo" data-proximo="5">Ser convocado para o campeonato</button>
+            <button class="btn-proximo" data-proximo="6">Sentir-se nervoso e não dar o seu melhor</button>
+        </section>
+
+        <section class="passo" id="passo-4">
+            <p>Você é convocado para o campeonato! Sua chance de brilhar chegou.</p>
+            <button class="btn-proximo" data-proximo="7">Treinar ainda mais antes do jogo</button>
+            <button class="btn-proximo" data-proximo="8">Descansar e relaxar para o grande dia</button>
+        </section>
+
+        <section class="passo" id="passo-5">
+            <p>No dia do jogo, você sente a adrenalina! A torcida está animada.</p>
+            <button class="btn-proximo" data-proximo="9">Dar tudo de si durante o jogo</button>
+            <button class="btn-proximo" data-proximo="10">Ficar ansioso e não jogar bem</button>
+        </section>
+
+        <section class="passo" id="passo-6">
+            <p>Após o jogo, você recebe elogios ou críticas. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="11">Aceitar as críticas e melhorar</button>
+            <button class="btn-proximo" data-proximo="12">Ficar chateado e desistir</button>
+        </section>
+
+        <section class="passo" id="passo-7">
+            <p>Você recebe uma proposta de um time profissional após a performance no campeonato!</p>
+            <button class="btn-proximo" data-proximo="13">Aceitar a proposta</button>
+            <button class="btn-proximo" data-proximo="14">Negar e continuar com seus estudos</button>
+        </section>
+
+        <section class="passo" id="passo-8">
+            <p>Sua primeira temporada profissional é cheia de desafios, mas também de aprendizados.</p>
+            <button class="btn-proximo" data-proximo="15">Focar em melhorar suas habilidades</button>
+            <button class="btn-proximo" data-proximo="16">Focar apenas em diversão</button>
+        </section>
+
+        <section class="passo" id="passo-9">
+            <p>Você se classifica para a competição nacional! Sua equipe tem chances de ganhar.</p>
+            <button class="btn-proximo" data-proximo="17">Treinar em equipe para a competição</button>
+            <button class="btn-proximo" data-proximo="18">Focar em ser o destaque individual</button>
+        </section>
+
+        <section class="passo" id="passo-10">
+            <p>A final chega e a pressão é intensa. Você está preparado?</p>
+            <button class="btn-proximo" data-proximo="19">Dar o seu melhor para vencer</button>
+            <button class="btn-proximo" data-proximo="20">Deixar a pressão afetar seu desempenho</button>
+        </section>
+
+        <section class="passo" id="passo-11">
+            <p>O jogo termina! Você e sua equipe conseguem a vitória ou não? O importante é a experiência adquirida.</p>
+            <button class="btn-proximo" data-proximo="21">Celebrar a vitória e continuar sonhando</button>
+            <button class="btn-proximo" data-proximo="22">Aprender com a derrota e se preparar para o próximo</button>
+        </section>
+
+        <section class="passo" id="passo-12">
+            <p>Independente do resultado, você se torna um jogador respeitado e continua sua jornada no futebol.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar a aventura</button>
+        </section>
+        
+        <section class="final">
+            <h2>Obrigado por participar!</h2>
+            <p>Sua jornada no futebol apenas começou. Continue acreditando nos seus sonhos e nunca pare de se esforçar!</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Aventura no Futebol. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
